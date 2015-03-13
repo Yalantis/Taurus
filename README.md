@@ -5,7 +5,7 @@ This project aims to provide a simple and customizable pull to refresh implement
 Check this [project on Behance] (https://www.behance.net/gallery/20411445/Mobile-Animations-Interactions)  
 Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Refresh)
 
-<img src="https://raw.githubusercontent.com/Yalantis/Taurus/develop/preview.gif" alt="alt text" style="width:200;height:200">
+<img src="https://d13yacurqjgara.cloudfront.net/users/125056/screenshots/1623131/tours-pull-airplane_2-2-3.gif" alt="alt text" style="width:200;height:200">
 
 [Sample APK] (https://github.com/Yalantis/Taurus/blob/develop/sample-taurus.apk?raw=true)
 
