@@ -1,4 +1,4 @@
-package com.yalantis.taurus.library;
+package com.yalantis.taurus;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

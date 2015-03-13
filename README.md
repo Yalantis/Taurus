@@ -18,7 +18,7 @@ Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Ref
 2. Include the PullToRefreshView widget in your layout.
 
 	```xml
-    <com.yalantis.taurus.library.PullToRefreshView
+    <com.yalantis.taurus.PullToRefreshView
         android:id="@+id/pull_to_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,7 +31,7 @@ Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Ref
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </com.yalantis.taurus.library.PullToRefreshView>
+    </com.yalantis.taurus.PullToRefreshView>
     ```
 
 3. In your `onCreate` method refer to the View and setup OnRefreshListener.

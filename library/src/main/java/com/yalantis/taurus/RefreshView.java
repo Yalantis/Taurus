@@ -1,4 +1,4 @@
-package com.yalantis.taurus.library;
+package com.yalantis.taurus;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -89,7 +89,6 @@ public class RefreshView extends Drawable implements Drawable.Callback, Animatab
     private float mLastAnimationTime;
 
     private Random mRandom;
-    private PullToRefreshView mRefreshLayout;
     private boolean mEndOfRefreshing;
 
     private enum AnimationPart {

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yalantis.taurus.library">
+    package="com.yalantis.taurus">
 
     <application android:allowBackup="true" />
 </manifest>
