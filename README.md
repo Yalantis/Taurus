@@ -7,13 +7,13 @@ Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Ref
 
 <img src="https://raw.githubusercontent.com/Yalantis/Taurus/develop/preview.gif" alt="alt text" style="width:200;height:200">
 
+[Sample APK] (https://github.com/Yalantis/Taurus/blob/develop/sample-taurus.apk?raw=true)
+
 #Usage
 
 *For a working implementation, Have a look at the Sample Project - sample*
 
 1. Include the library as local library project.
-
-    ``` compile 'com.yalantis:pulltorefresh:1.1.0' ```
 
 2. Include the PullToRefreshView widget in your layout.
 
@@ -49,6 +49,7 @@ Check this [project on Dribbble] (https://dribbble.com/shots/1623131-Pull-to-Ref
         }
      });
      ```
+
 # Misc
 If you need to change progress state:
 ```java
