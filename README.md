@@ -57,7 +57,7 @@ If you need to change progress state:
 ```
 #Compatibility
   
-  * Android GINGERBREAD 3.0+
+  * Android HONEYCOMB 3.0+
   
 # Changelog
 
