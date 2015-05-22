@@ -23,7 +23,6 @@ public class PullToRefreshView extends ViewGroup {
     private static final float DECELERATE_INTERPOLATION_FACTOR = 2f;
 
     public static final int MAX_OFFSET_ANIMATION_DURATION = 700;
-    public static final int MAX_OFFSET_END_ANIMATION_DURATION = 400;
     public static final int RESTORE_ANIMATION_DURATION = 2350;
 
     private static final int INVALID_POINTER = -1;
@@ -44,7 +43,6 @@ public class PullToRefreshView extends ViewGroup {
     private float mFromDragPercent;
     private boolean mNotify;
     private OnRefreshListener mListener;
-    private boolean isEndJetAnimation;
 
     public PullToRefreshView(Context context) {
         this(context, null);
@@ -63,7 +61,6 @@ public class PullToRefreshView extends ViewGroup {
         mRefreshImageView.setImageDrawable(mRefreshView);
 
         addView(mRefreshImageView);
-
         setWillNotDraw(false);
         ViewCompat.setChildrenDrawingOrderEnabled(this, true);
     }
@@ -214,11 +211,7 @@ public class PullToRefreshView extends ViewGroup {
     private void animateOffsetToPosition(Animation animation) {
         mFrom = mCurrentOffsetTop;
         mFromDragPercent = mCurrentDragPercent;
-        long animationDuration = Math.abs(
-                (long) (!isEndJetAnimation
-                        ? MAX_OFFSET_ANIMATION_DURATION
-                        : MAX_OFFSET_END_ANIMATION_DURATION
-                        * mFromDragPercent));
+        long animationDuration = (long) Math.abs(MAX_OFFSET_ANIMATION_DURATION * mFromDragPercent);
 
         animation.reset();
         animation.setDuration(animationDuration);
@@ -247,7 +240,6 @@ public class PullToRefreshView extends ViewGroup {
             }
         } else {
             mRefreshView.stop();
-            isEndJetAnimation = false;
             animateOffsetToPosition(mAnimateToStartPosition);
         }
         mCurrentOffsetTop = mTarget.getTop();
@@ -319,7 +311,6 @@ public class PullToRefreshView extends ViewGroup {
                 animateOffsetToCorrectPosition();
             } else {
                 mRefreshView.setEndOfRefreshing(true);
-                isEndJetAnimation = true;
                 animateOffsetToPosition(mAnimateToEndPosition);
             }
         }
