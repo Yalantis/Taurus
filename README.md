@@ -1,5 +1,5 @@
 # Pull-to-Refresh.Tours
-[![Yalantis](https://raw.githubusercontent.com/Yalantis/Taurus/master/badge_dark.png)](http://yalantis.com/?utm_source=github)
+[![Yalantis](https://raw.githubusercontent.com/Yalantis/Taurus/master/badge_dark.png)](https://yalantis.com/?utm_source=github)
 
 This project aims to provide a simple and customizable pull to refresh implementation.
 
