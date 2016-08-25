@@ -56,6 +56,12 @@ If you need to change progress state:
 ```java
 	mPullToRefreshView.setRefreshing(boolean isRefreshing)
 ```
+
+##Installing with [Gradle](http://gradle.org/)
+```groovy
+compile 'com.yalantis:pulltorefresh:1.0.0'
+```
+
 #Compatibility
   
   * Android HONEYCOMB 3.0+
