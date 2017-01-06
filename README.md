@@ -59,7 +59,7 @@ If you need to change progress state:
 
 ##Installing with [Gradle](http://gradle.org/)
 ```groovy
-compile 'com.yalantis:pulltorefresh:1.0.0'
+compile 'com.github.yalantis:taurus:1.0.2'
 ```
 
 #Compatibility
@@ -71,6 +71,10 @@ compile 'com.yalantis:pulltorefresh:1.0.0'
 ### Version: 1.0
 
   * Initial Build
+  
+### Version: 1.0.2
+
+  * Updated gradle version
   
 
 #### Let us know!
