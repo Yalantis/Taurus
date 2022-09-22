@@ -1,9 +1,6 @@
 package com.yalantis.taurus;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -15,6 +12,10 @@ import android.view.animation.Interpolator;
 import android.view.animation.Transformation;
 import android.widget.AbsListView;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.ViewCompat;
 
 public class PullToRefreshView extends ViewGroup {
 

@@ -59,7 +59,7 @@ If you need to change progress state:
 
 ##Installing with [Gradle](http://gradle.org/)
 ```groovy
-compile 'com.github.yalantis:taurus:1.0.2'
+implementation 'com.github.yalantis:taurus:1.0.3'
 ```
 
 #Compatibility
@@ -68,13 +68,18 @@ compile 'com.github.yalantis:taurus:1.0.2'
   
 # Changelog
 
-### Version: 1.0
+### Version: 1.0.3
 
-  * Initial Build
-  
+  * Updated depdendencies
+  * Migrated to AndroidX
+
 ### Version: 1.0.2
 
   * Updated gradle version
+
+### Version: 1.0
+
+  * Initial Build
   
 
 #### Let us know!
